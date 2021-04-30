@@ -1,4 +1,5 @@
 @import './app-theme';
+@import '~@angular/material-experimental/mdc-theming/all-theme';
 @import './styles/api';
 @import './styles/markdown';
 @import './styles/tables';
@@ -8,4 +9,5 @@
 @include mat-core();
 
 @include angular-material-theme($theme);
+@include angular-material-mdc-theme($theme);
 @include material-docs-app-theme($theme);
